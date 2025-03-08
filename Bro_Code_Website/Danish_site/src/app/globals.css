@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Poppins:wght@400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Syne:wght@700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --font-logo: 'Syne', sans-serif;
+    --font-heading: 'Lato', sans-serif;
+    --font-body: 'Lato', sans-serif;
+    --font-button: 'Poppins', sans-serif;
+
+    --primary: 217, 67%, 38%; /* #1D5AA2 */
+    --primary-foreground: 0, 0%, 100%; /* White */
+    
+    --text-primary: 0, 0%, 20%; /* Dark Gray */
+    --navbar-height: 116px;
+    --header-strip-height: 27px;
+    --button-width: 185px;
+    --button-height: 55px;
+
+    --background-hero: 212,100%,93%,1;
+    --radius: 20px;
+  }  
+
+  .dark {
+    --font-heading: 'Lato', sans-serif;
+    --font-body: 'Lato', sans-serif;
+    --font-button: 'Poppins', sans-serif;
+
+    --primary: 217, 67%, 38%; /* #1D5AA2 */
+    --primary-foreground: 0, 0%, 100%; /* White */
+    
+    --text-primary: 0, 0%, 20%; /* Dark Gray */
+    --navbar-height: 116px;
+    --header-strip-height: 27px;
+    --button-width: 185px;
+    --button-height: 55px;
+  }
+}
+html {
+  scroll-behavior: smooth;
+}
+* {
+  border-color: transparent;
+}

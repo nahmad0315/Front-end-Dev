@@ -1,0 +1,113 @@
+.signup-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #d8eaff;
+}
+
+.signup-box {
+  background: white;
+  border: 1px solid #1d5aa2;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 500px;
+}
+
+.signup-title {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+    font-weight: 700;
+}
+
+.form-row {
+  display: flex;
+  gap: 1rem;
+}
+
+.half-width {
+  flex: 1;
+}
+
+.form-group {
+  margin-bottom: 1rem;
+}
+
+label {
+  font-size: 0.875rem;
+  font-weight: 500;
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+input {
+  width: 100%;
+  padding: 0.75rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 0.875rem;
+}
+
+.password-field {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.password-field input {
+  flex: 1;
+  padding-right: 40px; /* Provide space for the icon */
+}
+
+.password-toggle {
+  position: absolute;
+  right: 10px;
+  cursor: pointer;
+}
+
+.validation-text {
+  font-size: 0.75rem;
+  color: #888;
+  margin-top: 0.5rem;
+}
+
+.signup-button {
+  width: 100%;
+  padding: 0.75rem;
+  background-color: #1d5aa2;
+  color: white;
+  font-size: 1rem;
+  font-weight: 600;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.signup-button:hover {
+  background-color: #0056b3;
+}
+
+.already-account-text {
+  font-size: 0.875rem;
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.already-account-text a {
+  color: #000000;
+  text-decoration: none;
+}
+
+.already-account-text a:hover {
+  text-decoration: underline;
+}
+
+.error-text {
+  color: red;
+  font-size: 0.75rem;
+  margin-top: 0.5rem;
+}

@@ -1,0 +1,157 @@
+/* Dashboard.css */
+
+/* -------------------------- */
+/*      Dashboard Container   */
+/* -------------------------- */
+.dashboard {
+    margin: 0 auto;
+    padding: 1.5rem; /* Equivalent to Tailwind's p-6 */
+    background-color: #ffffff; /* white */
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1); /* Similar to shadow-lg */
+    border-radius: 1rem; /* Similar to rounded-2xl */
+  }
+  
+  /* -------------------------- */
+  /*         Header             */
+  /* -------------------------- */
+  .dashboard-header {
+    font-size: 1.25rem; /* text-xl */
+    font-weight: 600;
+    color: #1f2937; /* text-gray-800 */
+  }
+  
+  /* -------------------------- */
+  /*       Form Container       */
+  /* -------------------------- */
+  .dashboard-form {
+    margin-top: 1rem;
+    color: #4b5563; /* text-gray-600 */
+  }
+  
+  /* -------------------------- */
+  /*       Grid Layouts         */
+  /* -------------------------- */
+  .grid {
+    display: grid;
+    gap: 1rem;
+  }
+  
+  /* Default: one column */
+  .grid-1 {
+    grid-template-columns: 1fr;
+  }
+  
+  /* Two columns on larger screens */
+  .grid-2 {
+    grid-template-columns: 1fr;
+  }
+  
+  .grid-3 {
+    grid-template-columns: 1fr;
+  }
+  
+  @media (min-width: 768px) {
+    /* For screens wider than 768px, use multiple columns */
+    .grid-2 {
+      grid-template-columns: repeat(2, 1fr);
+    }
+    .grid-3 {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+  
+  /* -------------------------- */
+  /*         Inputs             */
+  /* -------------------------- */
+  .input {
+    width: 100%;
+    padding: 0.5rem; /* p-2 */
+    border: 1px solid #cccccc;
+    border-radius: 0.25rem; /* rounded */
+    box-sizing: border-box;
+  }
+  
+  /* -------------------------- */
+  /*  Responsible Agent Fields  */
+  /* -------------------------- */
+  .agent-container {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  
+  @media (min-width: 768px) {
+    .agent-container {
+      flex-direction: row;
+    }
+    .agent-field-large {
+      width: 60%;
+    }
+    .agent-field-small {
+      width: 40%;
+    }
+  }
+  
+  /* -------------------------- */
+  /*      Horizontal Tabs       */
+  /* -------------------------- */
+  .tabs-container {
+    display: flex;
+    gap: 1rem;
+    border-bottom: 1px solid #cccccc;
+    padding-bottom: 0.5rem;
+    overflow-x: auto;
+  }
+  
+  .tab-button {
+    background: none;
+    border: none;
+    padding: 0.5rem;
+    color: #374151; /* text-gray-700 */
+    cursor: pointer;
+    font-size: 1rem;
+  }
+  
+  .tab-button:hover {
+    color: #3b82f6; /* blue-500 */
+  }
+  
+  .active-tab {
+    border-bottom: 2px solid #3b82f6; /* Active blue underline */
+  }
+  
+  /* -------------------------- */
+  /*      Form Section          */
+  /* -------------------------- */
+  .form-section {
+    margin-top: 1rem;
+  }
+  
+  /* -------------------------- */
+  /*      Action Buttons        */
+  /* -------------------------- */
+  .action-buttons {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 1rem;
+    margin-top: 1.5rem;
+  }
+  
+  @media (min-width: 768px) {
+    .action-buttons {
+      flex-direction: row;
+      align-items: center;
+    }
+  }
+  
+  /* Optional styling for the button groups */
+  .action-button-group {
+    display: flex;
+    gap: 1rem;
+  }
+  
+  /* -------------------------- */
+  /*      End of Styling        */
+  /* -------------------------- */
+  

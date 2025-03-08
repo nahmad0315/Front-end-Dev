@@ -1,0 +1,149 @@
+
+  /* Container */
+  .login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  border-radius: 20px 0 0;
+  background: #d8eaff;
+  box-shadow: 0 4px 6px #0000001a;
+  }
+  
+  /* Login Box */
+  .login-box {
+    width: 100%;
+    max-width: 400px;
+    padding: 20px;
+    border: 1px solid #1D5AA2;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Title */
+  .login-title {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+    font-weight: 700;
+  }
+  
+  /* Form Group */
+  .form-group {
+    margin-bottom: 15px;
+    text-align: left;
+  }
+  
+  label {
+    display: block;
+    font-size: 14px;
+    margin-bottom: 5px;
+    color: #555;
+  }
+  
+  input {
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    transition: border-color 0.3s ease-in-out;
+  }
+  
+  input:focus {
+    outline: none;
+    border-color: #007bff;
+  }
+  
+  /* Password Field */
+  .password-group {
+    position: relative;
+  }
+  
+  .password-field {
+    display: flex;
+    align-items: center;
+    position: relative;
+  }
+  
+  .password-field input {
+    padding-right: 40px; /* Space for icon */
+  }
+  
+  .password-toggle {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    font-size: 18px;
+    color: #888;
+    cursor: pointer;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  .password-toggle:hover {
+    color: #007bff;
+  }
+  
+  /* Button */
+  .login-button {
+    width: 100%;
+    padding: 10px;
+    font-size: 18px;
+    color: #fff;
+    background-color: #1D5AA2;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: 700;
+    /* margin-top: 25px; */
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .login-button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Signup Text */
+  .signup-text {
+    margin-top: 15px;
+    font-size: 14px;
+    color: #000000;
+    text-align: center;
+  }
+  
+  .signup-text a {
+    color: #090909;
+    text-decoration: none;
+    font-weight: 400;
+    line-height: 1.5;
+  }
+  
+  .signup-text a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Responsive Adjustments */
+  @media (max-width: 768px) {
+    .login-container {
+      width: 90%;
+      height: auto;
+      border-radius: 10px;
+    }
+  
+    .login-box {
+      padding: 15px;
+    }
+  
+    .login-title {
+      font-size: 20px;
+    }
+  
+    .login-button {
+      font-size: 16px;
+      border-radius: 8px;
+    }
+  }
+  

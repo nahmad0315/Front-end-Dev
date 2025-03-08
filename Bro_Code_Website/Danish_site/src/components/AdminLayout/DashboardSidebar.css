@@ -1,0 +1,123 @@
+/* General Layout */
+.dashboard-container {
+    display: flex;
+    height: 100vh;
+    background-color: #f3f4f6;
+    padding: 16px;
+  }
+  
+  /* Sidebar */
+  .sidebar {
+    width: 252px;
+    height: auto;
+    background: #ffffff;
+    border-radius: 20px;
+    box-shadow: 4px 4px 16.5px 0px rgba(0, 0, 0, 0.1);
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  /* Logo */
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #1f2937;
+    text-align: center;
+    margin-bottom: 24px;
+  }
+  
+  /* Dashboard Title */
+  .dashboard-title {
+    font-size: 20px;
+    font-weight: bold;
+    color: #374151;
+    text-align: center;
+    margin-bottom: 24px;
+  }
+  
+  /* Navigation */
+  .nav {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .tab-button {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 12px;
+    margin: 4px 0;
+    border-radius: 8px;
+    background: transparent;
+    color: #374151;
+    font-size: 16px;
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+  }
+  
+  .tab-button:hover {
+    background-color: #e5e7eb;
+  }
+  
+  .tab-button.active {
+    background-color: #d1d5db;
+  }
+  
+  /* Icon */
+  .icon {
+    margin-right: 12px;
+    color: #4b5563;
+  }
+  
+  /* Buttons */
+  .action-button {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 12px;
+    margin-bottom: 8px;
+    border-radius: 8px;
+    font-weight: 500;
+    transition: 0.3s;
+  }
+  
+  .action-button:hover {
+    opacity: 0.8;
+  }
+  
+  .logout {
+    background-color: #ef4444;
+    color: white;
+  }
+  
+  .settings {
+    border: 1px solid #d1d5db;
+    color: #374151;
+    background: white;
+  }
+  
+  /* Main Content */
+  .main-content {
+    flex: 1;
+    padding: 24px;
+    background: white;
+    box-shadow: 4px 4px 16.5px 0px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    margin-left: 16px;
+  }
+  
+  .tab-title {
+    font-size: 20px;
+    font-weight: bold;
+    color: #374151;
+  }
+  
+  .tab-content {
+    margin-top: 16px;
+    font-size: 16px;
+    color: #6b7280;
+  }
+  
