@@ -23,7 +23,7 @@ function App() {
             Add
           </button>
         </div>
-        <h2 className="text-lg font-bold">Your Todos</h2>
+        <h2 className="text-lg font-bold">Your Todoss</h2>
         <div className="todos">
           <div className="todo flex">
             <div className="text">{todo}</div>
